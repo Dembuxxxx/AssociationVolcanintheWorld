@@ -8,8 +8,8 @@ html,body {
   body{
       margin:0;
       padding:0;
-    background:#FFF;
-    -webkit-font-smoothing: antialiased;
+      background:#FFF;
+      -webkit-font-smoothing: antialiased;
   }
   a:hover{text-decoration: none;}
   
@@ -20,17 +20,17 @@ html,body {
   .navbar-brand{
       font-size: 25px;
       font-weight: bold;
-      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: 'Advent Pro', sans-serif;
       font-weight: 600;
   }
 
   h1 {
-    font-weight: bolder;
+        font-weight: bolder;
         text-align:center;
         color:black;
         font-size: 6em;
         margin-top: 90px;
-        font-family:'dancing script', cursive;
+        font-family: 'Advent Pro', sans-serif;
     }
 
 
@@ -38,7 +38,9 @@ html,body {
 
   h2 {
     text-align: center;
-    color: aqua;
+    color: black;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: bold;
 
   }
   
@@ -46,13 +48,14 @@ html,body {
   font-family: 'dancing Script', cursive;
   margin: auto;
   padding-top:15px;
+  color:grey;
   }
   
 
 
 
 img {
-  border-radius: 10px;
+    border-radius: 10px;
     box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
     margin-top: 50px;
     background-size: 150px;
@@ -61,8 +64,27 @@ img {
     margin-left: auto;
     margin-right: auto
   
+}
 
-  
 
+header.masthead {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-top: calc(8rem + 57px);
+  padding-bottom: 8rem;
+  background: no-repeat center center;
+  background-color: #6c757d;
+  background-size: cover;
+  background-attachment: scroll;
+}   
 
+header.masthead:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #212529;
+  opacity: 0.5;
 }
